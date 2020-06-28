@@ -5,7 +5,11 @@
 
     &__header {
         margin: $std-padding;
-        font-size: 3rem;
+        font-size: 2.5rem;
+
+        &--space {
+            margin-top: 32px;
+        }
     }
 
     &-container {

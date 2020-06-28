@@ -51,27 +51,65 @@
             </ul>
         </nav>
     </header>
-    <aside class="aside">
-        <img class="aside__logo"
-            alt="Randall Roberts Portfolio Logo"
-            src="assets/R-Squared-Logo-cropped.png"
-        />
-
-        <ul class="aside__list">
-            <li class="aside__list-item">
-                <a href="index.html" class="aside__link">
-                    Projects
-                </a>
-            </li>
-            <li class="aside__list-item">
-                <a href="index.html" class="aside__link">
-                    Guides
-                </a>
-            </li>
-        </ul>
-    </aside>
     <main>
-
+        <section class="main">
+            <aside class="aside">
+                <img class="aside__logo"
+                    alt="Randall Roberts Portfolio Logo"
+                    src="assets/R-Squared-Logo-cropped.png"
+                />
+        
+                <ul class="aside__list">
+                    <li class="aside__list-item">
+                        <a href="index.html" class="aside__link">
+                            Projects
+                        </a>
+                    </li>
+                    <li class="aside__list-item">
+                        <a href="index.html" class="aside__link">
+                            Guides
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <article class="main__section">
+                <img src="assets/mealPlanLogo.PNG"
+                    alt="MealPlan4Me Logo"
+                    class="main__img"
+                />
+                <p class="main__description">
+                    MealPlan4Me is an automated meal planner which tracks the ingredients and meals you prefer, and suggests recipes for meal inspiration. Features include: Nutritional Data for Ingredients and Recipes, auto-scheduling saved receipes into weekly calendars, dynamic categorization of ingredients, dynamic recipe suggestions based on previous favourites or by selected ingredients.
+                </p>
+                <img src="assets/Recipes.gif"
+                    alt="MealPlan4Me Logo"
+                    class="main__img main__img--right"
+                />
+                <p class="main__description">
+                    The current implementation was written in one two-week sprint, using a MERN stack (MongoDB, Express, React, Node)
+                </p>
+                <p class="main__description">
+                    Future implementations will include:
+                    <ul class="main__description main__description--list">
+                        <li>
+                            Bulk ingredient import
+                        </li>
+                        <li>
+                            Receipt Scanning with TesseractJS
+                        </li>
+                        <li>
+                            Refactoring the Backend (Express and Mongo) to route requests, and store more data about the ingredients & meals, and historical mealplan data
+                        </li>
+                        <li>
+                            User Authentication & Accounts
+                        </li>
+                        <li>
+                            A new page to determine user's health and fitness goals
+                        </li>
+                        
+                    </ul>
+                </p>
+            </article>
+        </section>
     </main>
     <footer class="foot">
         <ul class="foot__menu">

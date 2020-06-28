@@ -1,14 +1,17 @@
 .aside {
-    width: 20%;
-    height: 100vh;
+    width: 24%;
+    margin-right:32px;
+    // height: 100vh;
+    // display: inline-block;
 
     // box-shadow: 5px 0 16px $black;
 
     &__logo {
         position: relative;
+        top: -90px;
         margin: $std-padding;
         
-        max-width:100%;
+        max-width:90%;
         height: auto;
         
         background-color: $white;
@@ -18,6 +21,8 @@
     }
 
     &__list {
+        position: relative;
+        top: -90px;
         padding: $std-padding;
         width: 100%;
     }

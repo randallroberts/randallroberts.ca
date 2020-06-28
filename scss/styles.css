@@ -71,14 +71,15 @@
 }
 
 .aside {
-  width: 20%;
-  height: 100vh;
+  width: 24%;
+  margin-right: 32px;
 }
 
 .aside__logo {
   position: relative;
+  top: -90px;
   margin: 16px;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   background-color: #FFFFFF;
   border: none;
@@ -88,6 +89,8 @@
 }
 
 .aside__list {
+  position: relative;
+  top: -90px;
   padding: 16px;
   width: 100%;
 }
@@ -110,6 +113,49 @@
   border: 1px solid #AFAFAF;
   border-left: none;
   border-right: none;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px;
+  margin-top: 80px;
+}
+
+.main__section {
+  width: 75%;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.main__section:hover {
+  -webkit-box-shadow: 5px 5px 16px #323232;
+          box-shadow: 5px 5px 16px #323232;
+}
+
+.main__description {
+  padding: 16px;
+}
+
+.main__description--list {
+  padding-left: calc(2*16px);
+}
+
+.main__title {
+  font-size: 3rem;
+}
+
+.main__img {
+  width: 30%;
+  float: left;
+  margin: 16px;
+}
+
+.main__img--right {
+  float: right;
 }
 
 .foot {

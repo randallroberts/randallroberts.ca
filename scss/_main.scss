@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    padding: $std-padding;
+    margin-top: 80px;
+    
+    &__section {
+        width: 75%;
+        padding: $std-padding;
+
+        // display: flex;
+        // flex-direction: column;
+
+        border-radius: 4px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        &:hover {
+            box-shadow: 5px 5px 16px $black;
+        }
+    }
+
+    &__description {
+        padding: $std-padding;
+        &--list {
+            padding-left: calc(2*#{$std-padding})
+        }
+    }
+
+    &__title {
+        font-size: 3rem;
+    }
+
+    &__img {
+        width: 30%;
+        float: left;
+        margin: $std-padding;
+
+        &--right {
+            float: right;
+        }
+    }
+
+}

@@ -21,10 +21,13 @@
     }
 
     &__list {
-        position: relative;
-        top: -90px;
         padding: $std-padding;
         width: 100%;
+
+        &--top {
+            position: relative;
+            top: -90px;
+        }
     }
     
     &__list-item {

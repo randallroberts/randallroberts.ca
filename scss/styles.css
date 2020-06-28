@@ -89,10 +89,13 @@
 }
 
 .aside__list {
-  position: relative;
-  top: -90px;
   padding: 16px;
   width: 100%;
+}
+
+.aside__list--top {
+  position: relative;
+  top: -90px;
 }
 
 .aside__list-item {

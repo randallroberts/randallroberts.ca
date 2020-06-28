@@ -1,10 +1,15 @@
 .main {
     display: flex;
     padding: $std-padding;
-    margin-top: 80px;
+    margin: 80px 0;
+
+    // &__header {
+    //     display: block;
+    //     width: 100%;
+    // }
     
     &__section {
-        width: 75%;
+        width: 85%;
         padding: $std-padding;
 
         // display: flex;
@@ -19,8 +24,13 @@
 
     &__description {
         padding: $std-padding;
+        
         &--list {
             padding-left: calc(2*#{$std-padding})
+        }
+
+        &--bold {
+            font-weight: bold;
         }
     }
 
@@ -36,6 +46,19 @@
         &--right {
             float: right;
         }
+    }
+
+    &__flat-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    &__list-item {
+        text-decoration: none;
+        list-style-type: none;
     }
 
 }

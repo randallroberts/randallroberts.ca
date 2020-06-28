@@ -39,7 +39,7 @@
                     </a>
                 </li>
                 <li class="nav__list-item">
-                    <a class="nav__link" href="index.html">
+                    <a class="nav__link" href="#Projects">
                         Projects
                     </a>
                 </li>
@@ -61,12 +61,12 @@
         
                 <ul class="aside__list aside__list--top">
                     <li class="aside__list-item">
-                        <a href="index.html" class="aside__link">
+                        <a href="#Projects" class="aside__link">
                             Projects
                         </a>
                         <ul class="aside__list">
                             <li class="aside__list-item">
-                                <a href="index.html" class="aside__link">
+                                <a href="#MealPlan4Me" class="aside__link">
                                     MealPlan4Me
                                 </a>
                             </li>
@@ -76,9 +76,7 @@
                                 </a>
                             </li>
                         </ul>
-                    </li>
-                    <!--Project List-->
-                        
+                    </li>                        
                     <li class="aside__list-item">
                         <a href="index.html" class="aside__link">
                             Guides
@@ -86,7 +84,10 @@
                     </li>
                 </ul>
             </aside>
-            <article class="main__section">
+
+            <!-- <h2 class="main__header" id="Projects">Projects:</h2> -->
+
+            <article id="MealPlan4Me" class="main__section">
                 <img src="assets/mealPlanLogo.PNG"
                     alt="MealPlan4Me Logo"
                     class="main__img"
@@ -99,7 +100,7 @@
                     class="main__img main__img--right"
                 />
                 <p class="main__description">
-                    The current implementation was written in one two-week sprint, using a MERN stack (MongoDB, Express, React, Node)
+                    The current implementation was written in one two-week sprint, using a MERN stack <span class="main__description--bold">(MongoDB, Express, React, Node)</span>
                 </p>
                 <p class="main__description">
                     Future implementations will include:
@@ -121,9 +122,14 @@
                         </li>
                     </ul>
                 </p>
-                <p class=>
+                <p class="main__description">
                     <ul class="main__flat-list">
-
+                        <li class="main__list-item">
+                            <a href="https://github.com/randallroberts/mealplan4me">Github Repo</a>
+                        </li>
+                        <!-- <li class="main__list-item">
+                            <a href="https://mealplan4.me">Deployed Demo</a>
+                        </li> -->
                     </ul>
                 </p>
             </article>

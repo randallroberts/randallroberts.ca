@@ -1,5 +1,6 @@
 .aside {
-    width: 24%;
+    width: 15%;
+    min-width: 200px;
     margin-right:32px;
     // height: 100vh;
     // display: inline-block;
@@ -23,6 +24,7 @@
     &__list {
         padding: $std-padding;
         width: 100%;
+        min-width: 200px;
 
         &--top {
             position: relative;

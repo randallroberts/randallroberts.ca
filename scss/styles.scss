@@ -1,0 +1,24 @@
+@import "variables";
+@import "mixins";
+@import "reset";
+
+@import "nav";
+@import "aside";
+@import "main";
+@import "footer";
+
+/* Global Styling */
+.button {
+    background-color: $black;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Avenir Next Regular', 'Avenir Next Demi Bold', 'Avenir Next Bold', 'Roboto', sans-serif;
+    color: $white;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    
+    box-sizing: border-box;
+    width: 90%;
+    padding: 15px;
+}

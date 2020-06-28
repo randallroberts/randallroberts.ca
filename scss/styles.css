@@ -128,9 +128,25 @@
   margin: 80px 0;
 }
 
-.main__section {
+.main__header {
+  margin: 16px;
+  font-size: 3rem;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 85%;
+}
+
+.main__section {
   padding: 16px;
+  width: 100%;
   border-radius: 4px;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);

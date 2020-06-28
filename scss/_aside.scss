@@ -1,12 +1,11 @@
 .aside {
     width: 20%;
-    // height: 100vh;
+    height: 100vh;
 
     // box-shadow: 5px 0 16px $black;
 
     &__logo {
         position: relative;
-        top: -80px;
         margin: $std-padding;
         
         max-width:100%;
